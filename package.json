@@ -4,11 +4,11 @@
 	"description": "",
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js",
 		"dev": "nodemon app.js",
-		"eslint--init": "eslint --init",
-		"eslint": "eslint ./",
-		"eslint--fix": "eslint ./ --fix"
+		"start": "node app.js",
+		"eslint_init": "eslint --init",
+		"eslint_check": "eslint ./",
+		"eslint_fix": "eslint ./ --fix"
 	},
 	"keywords": [],
 	"author": "Amit Manna",
@@ -20,8 +20,6 @@
 	},
 	"devDependencies": {
 		"eslint": "^8.56.0",
-		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-plugin-import": "^2.29.1",
 		"nodemon": "^3.0.3"
 	}
 }
